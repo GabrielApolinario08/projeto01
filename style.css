@@ -1,0 +1,254 @@
+/* Paleta de cores */
+:root {
+    --color1: #0B2447;
+    --color2: #19376D;
+    --color3: #576CBC;
+    --color4: #A5D7E8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Menu principal */
+nav {
+    padding: 7px;
+    background-color: var(--color1);
+    text-align: center;
+}
+
+nav div {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+nav img {
+    width: 5%;
+    border-radius: 50%;
+    margin: 5px 0;
+}
+
+nav div ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav div ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+nav div ul li a:hover {
+    color: red;
+    text-shadow: 2px 2px 2px black, -1px -1px 1px black;
+    transition: .5s;
+    font-size: 18px;
+}
+
+/* corpo */
+main {
+    display: flex;
+}
+
+/* Menu lateral */
+.menu-lateral {
+    width: 20%;
+    padding: 10px;
+    background-color: var(--color2);
+    text-align: center;
+    color: white;
+}
+
+.menu-lateral img {
+    width: 70%;
+    border-radius: 10%;
+    border: 2px solid white;
+    margin: 5px 0;
+}
+
+.menu-lateral h2 {
+    color: red;
+    padding: 5px 0;
+}
+
+.menu-lateral ul {
+    margin: 20px 0;
+}
+
+.menu-lateral ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 1.7;
+    font-weight: bold;
+}
+
+.menu-lateral ul li a:hover {
+    color: red;
+    text-shadow: 2px 2px 2px black, -1px -1px 1px black;
+    transition: .5s;
+    font-size: 18px;
+}
+
+.menu-lateral h3 {
+    font-style: italic;
+    font-size: 15px;
+    padding: 15px 0;
+}
+
+/* Cabeçalho */
+.conteudo {
+    width: 80%;
+    background-color: var(--color1);
+}
+
+.conteudo header {
+    background-image: url(img/fundo-setup.jpg);
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.conteudo header h1 {
+    border-bottom: 1px solid white;
+}
+
+/* Conteúdo - linguagens de programação */
+.linguagens {
+    padding: 20px;
+    text-align: center;
+}
+
+.linguagens h1 {
+    color: white;
+    font-size: 30px;
+    margin: 20px 0;
+    border-bottom: 1px solid white;
+}
+
+.linguagens-individual {
+    display: flex;
+    text-align: start;
+}
+
+.linguagens-individual img {
+    width: 20%;
+}
+
+.escrito {
+    display: block;
+    width: 60%;
+}
+
+.escrito h2 {
+    padding: 20px 0;
+    color: rgb(255, 255, 255);
+}
+
+.escrito p {
+    line-height: 1.5;
+    text-indent: 20px;
+    text-align: justify;
+    color: rgb(168, 168, 168);
+}
+
+
+/* Conteúdo - cards editor de código */
+.editor {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.editor h1 {
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.container {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.card {
+    border: 2px solid yellow;
+    padding: 15px 0;
+    width: 30%;
+    border-radius: 10%;
+    align-items: center;
+}
+
+.card:hover {
+    padding: 20px;
+    transition: .5s;
+    
+}
+
+.card img {
+    width: 60%;
+}
+
+.card p {
+    color: rgb(168, 168, 168);
+    padding: 15px;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.card a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    border-radius: 15%;
+}
+
+.card a:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.botao-card {
+    margin: 15px 0;
+}
+
+/* rodapé */
+footer {
+    padding: 20px;
+    background-color: var(--color3);
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover{
+    color: black;
+    transition: .5s;
+    font-weight: bold;
+}
