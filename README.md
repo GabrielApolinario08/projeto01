@@ -1,1 +1,2 @@
-# Projeto pessoal, feito para trabalhar um pouco de HTML e CSS!
+# Projeto pessoal!
+Feito para trabalhar um pouco de HTML e CSS!
